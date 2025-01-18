@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerTitle {
+    color: #BB2EC8;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.headerButton {
+    color: #AF00B2;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.headerButton:hover {
+    color: #850087;
+}

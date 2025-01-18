@@ -1,0 +1,83 @@
+.modalOverlayoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.modalContent {
+    background: #fff;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modalHeaderTitle {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.modalHeaderButton {
+    background-color: transparent;
+    border: none;
+}
+
+.modalHeaderButton:hover svg path {
+    fill: #850087;
+}
+
+.modalTaskName,
+.modalTaskDescription {
+    width: 96%;
+    border-radius: 8px;
+    border: 2px solid #AF00B2;
+    padding: 1%;
+    display: block;
+    resize: none;
+    margin-top: 2%;
+    font-family: 'Inter', sans-serif;
+}
+
+.modalTaskManipulation {
+    margin-top: 3%;
+    display: flex;
+}
+
+.modalTaskManipulationClose {
+    color: #8E8E8E;
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.modalTaskManipulationClose:hover {
+    color: #707070;
+}
+
+.modalTaskManipulationCreate {
+    color: #AF00B2;
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.modalTaskManipulationCreate:hover {
+    color: #850087;
+}
